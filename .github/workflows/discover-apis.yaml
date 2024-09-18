@@ -3,10 +3,11 @@ name: Sync Discovered API with APIConnect
 on: [pull_request, workflow_dispatch, push]
 
 env:
-  API_HOST: <host-name>
-  PLATFORM_API_PREFIX: <platform-api>
-  PROVIDER_ORG: <porg-name>
-  API_FILES: <file/files name>
+  API_HOST: cp4i-253015-1ea39f2197613090e80c4981ab6eab96-0000.eu-de.containers.appdomain.cloud
+  PLATFORM_API_PREFIX: apic-mgmt-platform-api-apic
+  INSECURE_SKIP_TLS_VERIFY: true
+  PROVIDER_ORG: apic10
+  API_FOLDERS: new
 
 jobs:
   run-discovery:
