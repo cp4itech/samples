@@ -6,7 +6,7 @@ env:
   API_HOST: <host-name>
   PLATFORM_API_PREFIX: <platform-api>
   PROVIDER_ORG: <porg-name>
-  API_FILES: <file/files name>
+  API_FOLDERS: new
 
 jobs:
   check_changes_job:
