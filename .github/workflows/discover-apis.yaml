@@ -8,7 +8,6 @@ env:
   INSECURE_SKIP_TLS_VERIFY: true
   PROVIDER_ORG: apic10
   API_FOLDERS: new
-  INSECURE_SKIP_TLS_VERIFY: true
 
 jobs:
   run-discovery:
